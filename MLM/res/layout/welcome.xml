@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#bddeee">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome, $NAME$"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:layout_marginTop="50dip"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/activityButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity Button" 
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="180dip"/>
+
+    <Button
+        android:id="@+id/photosButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Photos Button" 
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"/>
+
+    <Button
+        android:id="@+id/videosButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Videos Button" 
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"/>
+
+</LinearLayout>
